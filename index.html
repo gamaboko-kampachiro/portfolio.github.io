@@ -3,72 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Manish - Cloud & DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header & Navigation -->
     <header>
-        <nav>
-            <div class="logo">My Portfolio</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">Manish</div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a passionate developer creating amazing digital experiences</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hi, I'm [Your Name], a passionate developer with expertise in creating beautiful and functional websites and applications. I love turning complex problems into simple, beautiful designs.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of your first project goes here.</p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Manish</span></h1>
+                    <h2>Cloud & DevOps Engineer</h2>
+                    <p>Building scalable cloud infrastructure and implementing DevOps best practices</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="#" class="btn btn-outline">
+                            <i class="fas fa-file-pdf"></i> Download Resume
+                        </a>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of your second project goes here.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of your third project goes here.</p>
+                <div class="hero-image">
+                    <div class="cloud-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a Computer Science graduate passionate about cloud computing, DevOps practices, and infrastructure automation. I enjoy building scalable systems and learning modern cloud technologies.</p>
+                <p>With expertise in Linux, automation, and cloud infrastructure, I strive to optimize system performance and reliability while implementing best practices in DevOps culture.</p>
+            </div>
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud</h3>
+                    <ul>
+                        <li>AWS (EC2, S3, VPC, IAM, RDS)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> DevOps</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
+                        <li>Ansible</li>
+                        <li>CI/CD</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-linux"></i> Operating System</h3>
+                    <ul>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-python"></i> Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Jenkins</li>
+                        <li>Prometheus</li>
+                        <li>Grafana</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Smart Auto Scaling Web App</h3>
+                    <p>Frontend on S3, Backend on EC2, Database RDS, Load Balancer, Auto Scaling</p>
+                    <div class="tech-stack">
+                        <span class="tech">AWS</span>
+                        <span class="tech">EC2</span>
+                        <span class="tech">S3</span>
+                        <span class="tech">RDS</span>
+                        <span class="tech">Load Balancer</span>
+                        <span class="tech">Auto Scaling</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>CI/CD Pipeline for Containerized App</h3>
+                    <p>Docker, Jenkins, GitHub, Kubernetes</p>
+                    <div class="tech-stack">
+                        <span class="tech">Docker</span>
+                        <span class="tech">Jenkins</span>
+                        <span class="tech">GitHub</span>
+                        <span class="tech">Kubernetes</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Monitoring Stack</h3>
+                    <p>Prometheus, Grafana, Alerting</p>
+                    <div class="tech-stack">
+                        <span class="tech">Prometheus</span>
+                        <span class="tech">Grafana</span>
+                        <span class="tech">Alerting</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>AWS Cloud Practitioner</h3>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Linux Certification</h3>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>DevOps Certification</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Internships</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>DevOps Internship</h3>
+                    <p class="company">Company Name</p>
+                    <p class="date">Jan 2023 - Mar 2023</p>
+                    <p>Worked on implementing CI/CD pipelines and containerization of applications</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>AWS Training Program</h3>
+                    <p class="company">Training Institute</p>
+                    <p class="date">Apr 2022 - Jun 2022</p>
+                    <p>Completed comprehensive training on AWS services and cloud architecture</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Data Analysis Internship</h3>
+                    <p class="company">Company Name</p>
+                    <p class="date">Jul 2021 - Sep 2021</p>
+                    <p>Analyzed large datasets and created automated reporting solutions</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>ML Internship</h3>
+                    <p class="company">Company Name</p>
+                    <p class="date">Jan 2021 - Mar 2021</p>
+                    <p>Developed machine learning models for predictive analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>manish@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p>github.com/manish</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>linkedin.com/in/manish</p>
+                    </div>
+                </div>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            <p>&copy; 2026 Manish - Cloud & DevOps Engineer. All rights reserved.</p>
         </div>
     </footer>
 

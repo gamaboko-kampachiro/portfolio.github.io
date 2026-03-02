@@ -1,20 +1,36 @@
-# My Portfolio
+# Manish - Cloud & DevOps Engineer Portfolio
 
-Welcome to my personal portfolio website! This site showcases my projects, skills, and experience as a developer.
+Welcome to my personal portfolio website! This site showcases my projects, skills, and experience as a Cloud & DevOps Engineer.
 
 ## Features
 
-- Responsive design that works on all devices
+- Modern, clean, and professional design
+- Responsive layout that works on all devices
 - Smooth scrolling navigation
-- Project showcase section
-- Contact form
-- Modern UI with clean aesthetics
+- Dark/light mode toggle
+- Project showcase with tech stack
+- Skills section with categorized technologies
+- Certifications and experience timeline
+- Contact form with validation
+- Animated elements for enhanced user experience
 
 ## Technologies Used
 
 - HTML5
-- CSS3
-- JavaScript
+- CSS3 (with Flexbox and Grid)
+- JavaScript (ES6+)
+- Font Awesome for icons
+- Modern CSS variables for theming
+
+## Sections
+
+- Hero Section with name, title, and social links
+- About Me section
+- Skills section with categorized technologies
+- Projects section with detailed descriptions
+- Certifications section
+- Experience timeline
+- Contact section
 
 ## Getting Started
 
@@ -42,4 +58,4 @@ This portfolio can be easily deployed using GitHub Pages:
 
 ---
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by Manish - Cloud & DevOps Engineer
