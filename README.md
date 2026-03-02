@@ -54,7 +54,7 @@ This portfolio can be easily deployed using GitHub Pages:
 
 1. Push this code to a GitHub repository
 2. Enable GitHub Pages in the repository settings
-3. Your portfolio will be live at `https://yourusername.github.io/repository-name`
+3. Your portfolio will be live at `https://gamaboko-kampachiro.github.io/repository-name`
 
 ---
 

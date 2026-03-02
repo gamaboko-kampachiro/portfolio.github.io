@@ -55,22 +55,19 @@ window.addEventListener('scroll', () => {
 
 // Form Submission
 const contactForm = document.getElementById('contact-form');
+
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const message = formData.get('message');
-        
-        // In a real application, you would send the form data to a server
-        // For now, we'll just show a success message
-        alert(`Thank you ${name || 'for contacting me'}! I'll get back to you soon.`);
-        
-        // Reset the form
-        contactForm.reset();
+
+        const name = contactForm.querySelector('input[type="text"]').value;
+        const email = contactForm.querySelector('input[type="email"]').value;
+        const message = contactForm.querySelector('textarea').value;
+
+        const subject = `Portfolio Contact from ${name}`;
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+
+        window.location.href = `mailto:kjainmanish794@gmail.com?subject=${subject}&body=${body}`;
     });
 }
 
